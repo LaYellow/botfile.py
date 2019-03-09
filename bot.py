@@ -1,11 +1,8 @@
 import discord
 from discord.ext import commands
-from discord.ext.commands import bot
 from discord.ext.commands import has_permissions
 import asyncio
 from itertools import cycle
-import time
-import youtube_dl
 
 my_token = 'NTQyNTAyNjIzNjY4OTk0MDY5.DzvCIw.JoOolByOgGw3OqT4pnOMf5Xc5E8'
 
@@ -29,14 +26,60 @@ async def change_status():
 @client.event
 async def on_ready():
     print('The bot is online and is connected to discord')
-   
-@bot.client()
+ 
+@client.command()
 async def ping():
-    await bot.say('@LaYellow#9207')
-    await bot.say('@LaYellow#9207')
-    await bot.say('@LaYellow#9207')
-    await bot.say('@LaYellow#9207')
-    await bot.say('@LaYellow#9207')
-    await bot.say('@LaYellow#9207')
-    await bot.say('@LaYellow#9207')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
+    await client.say('@everyone')
     
+    
+client.run('NTQyNTAyNjIzNjY4OTk0MDY5.DzvCIw.JoOolByOgGw3OqT4pnOMf5Xc5E8')
