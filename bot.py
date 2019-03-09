@@ -4,7 +4,7 @@ from discord.ext.commands import has_permissions
 import asyncio
 from itertools import cycle
 
-my_token = 'NTQyNTAyNjIzNjY4OTk0MDY5.DzvCIw.JoOolByOgGw3OqT4pnOMf5Xc5E8'
+
 
 client = commands.Bot(command_prefix = '/')
 
@@ -82,4 +82,4 @@ async def ping():
     await client.say('@everyone')
     
     
-client.run('NTQyNTAyNjIzNjY4OTk0MDY5.DzvCIw.JoOolByOgGw3OqT4pnOMf5Xc5E8')
+yOgGw3OqT4pnOMf5Xc5E8')
