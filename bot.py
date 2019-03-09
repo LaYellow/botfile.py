@@ -29,3 +29,14 @@ async def change_status():
 @client.event
 async def on_ready():
     print('The bot is online and is connected to discord')
+   
+@bot.client()
+async def ping():
+    await bot.say('@LaYellow#9207')
+    await bot.say('@LaYellow#9207')
+    await bot.say('@LaYellow#9207')
+    await bot.say('@LaYellow#9207')
+    await bot.say('@LaYellow#9207')
+    await bot.say('@LaYellow#9207')
+    await bot.say('@LaYellow#9207')
+    
