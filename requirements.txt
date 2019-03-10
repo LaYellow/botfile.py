@@ -1,5 +1,1 @@
-disocrd
-asyncio
-Pymoe
-youtube_dl
-pip
+disocrd.py
